@@ -2,10 +2,45 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel = "manifest" href = "manifest.webmanifest"> 
+		<link rel="manifest" href="manifest.webmanifest">
+		<link rel="stylesheet" href="style.css">
+		<script src="./script.js"></script>
 	</head>
 	<body>
-		<h1>Hello world !</h1>
-		<a href="./page2.html">click here to test a second page !</a>
+		<table>
+			<tr>
+				<td colspan="4"><input type="text" id="result-container" value="11111111111111111111111111111111111"></td>
+			</tr>
+			<tr>
+				<td><button id="clear">C</button></td>
+				<td><button class="to-add">(</button></td>
+				<td><button class="to-add">)</button></td>
+				<td><button id="delete">🠔</button></td>
+			</tr>
+			<tr>
+				<td><button class="to-add">7</button></td>
+				<td><button class="to-add">8</button></td>
+				<td><button class="to-add">9</button></td>
+				<td><button class="to-add">*</button></td>
+			</tr>
+			<tr>
+				<td><button class="to-add">4</button></td>
+				<td><button class="to-add">5</button></td>
+				<td><button class="to-add">6</button></td>
+				<td><button class="to-add">-</button></td>
+			</tr>
+			<tr>
+				<td><button class="to-add">1</button></td>
+				<td><button class="to-add">2</button></td>
+				<td><button class="to-add">3</button></td>
+				<td><button class="to-add">+</button></td>
+			</tr>
+			<tr>
+				<td><button class="to-add">.</button></td>
+				<td><button class="to-add">0</button></td>
+				<td><button id="equal">=</button></td>
+				<td><button class="to-add">/</button></td>
+			</tr>
+		</table>
 	</body>
 </html>
