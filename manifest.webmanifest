@@ -1,15 +1,15 @@
 {
-  "background_color": "#ffc400",
-  "description": "My first pwa :)",
+  "background_color": "#111130",
+  "description": "A simple calculator pwa.",
   "display": "standalone",
   "icons": [
     {
       "src": "icons/icon.png",
-      "sizes": "512x512",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ],
-  "name": "My Pretty Useless App",
-  "short_name": "My App",
+  "name": "Calculatrice",
+  "short_name": "Calc",
   "start_url": "index.html"
 }
