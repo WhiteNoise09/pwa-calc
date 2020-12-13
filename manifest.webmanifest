@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffc400",
+  "description": "My first pwa :)",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "My Pretty Useless App",
+  "short_name": "My App",
+  "start_url": "index.html"
+}
