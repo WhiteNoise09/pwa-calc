@@ -1,7 +1,7 @@
 {
   "background_color": "#ffc400",
   "description": "My first pwa :)",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "icons/icon.png",
