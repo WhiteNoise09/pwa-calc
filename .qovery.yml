@@ -1,0 +1,11 @@
+---
+application:
+  name: "pwa-calc"
+  project: "AnotherTestApplication"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-pwa-calc"
+  routes:
+  - application_name: "pwa-calc"
+    paths:
+    - "/*"
